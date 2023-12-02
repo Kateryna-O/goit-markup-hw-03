@@ -2,14 +2,15 @@
 body {
   background-color: #fff;
   color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
+  font-family: "Roboto" sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+button:active {
+  background-color: #404bbf;
+}
 /*Default values*/
 /* font-size: 16px;
 font-weight: 400;
@@ -63,6 +64,13 @@ a {
   color: #2e2f42;
   font-weight: 500;
 }
+.nav-link:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.nav-link:hover {
+  color: #404bbf;
+}
 .contact {
 }
 .contact-list {
@@ -72,7 +80,10 @@ a {
 .contact-link {
   color: #434455;
 }
-
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
 /*Main section*/
 
 .main {
@@ -91,6 +102,7 @@ a {
 .hero-btn {
   color: #fff;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
   background: #4d5ae5;
@@ -106,9 +118,12 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2px;
+  letter-spacing: 0.02em;
 }
 .features-desc {
   color: #434455;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .team {
   background: #f4f4fd;
@@ -132,9 +147,12 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
 }
 .team-caption {
   color: #434455;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .portfolio {
 }
@@ -155,9 +173,12 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
 }
 .portfolio-captoin {
   color: #434455;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 
 /*Footer section*/
@@ -179,4 +200,6 @@ a {
 }
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
