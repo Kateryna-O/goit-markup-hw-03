@@ -1,0 +1,107 @@
+/*Base styles*/
+body {
+  background-color: #fff;
+  font-family: "Roboto";
+}
+
+/*Default values*/
+/* font-size: 16px;
+font-weight: 400;
+font-style: normal;
+color: black;
+background-color: white; */
+
+/*Reset styles (скинути)*/
+
+/*Common styles (поширений)*/
+
+/*Header section*/
+
+.header {
+}
+.header-logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.dark-logo {
+  color: #2e2f42;
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+}
+.contact {
+}
+.contact-list {
+}
+.contact-item {
+}
+.contact-link {
+}
+
+/*Main section*/
+
+.main {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+.features {
+}
+.features-list {
+}
+.features-item {
+}
+.features-caption {
+}
+.features-desc {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-subtitle {
+}
+.team-caption {
+}
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-list {
+}
+.portgolio-item {
+}
+.portfolio-img {
+}
+.portfolio-subtitle {
+}
+.portfolio-captoin {
+}
+
+/*Footer section*/
+
+.footer {
+}
+.footer-link {
+}
+.light-logo {
+}
+.footer-text {
+}
