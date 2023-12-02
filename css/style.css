@@ -113,12 +113,11 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background: #4d5ae5;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .features {
 }
@@ -127,6 +126,7 @@ a {
 .features-item {
 }
 .features-caption {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -138,11 +138,12 @@ a {
   letter-spacing: 0.02em;
 }
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-img {
 }
@@ -169,6 +170,7 @@ a {
 .portfolio-img {
 }
 .portfolio-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
