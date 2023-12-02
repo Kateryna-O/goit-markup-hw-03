@@ -1,8 +1,8 @@
 /*Base styles*/
 body {
   background-color: #fff;
-  color: #2e2f42;
-  font-family: "Roboto" sans-serif;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
 }
 
 button {
@@ -46,13 +46,14 @@ a {
 }
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .dark-logo {
   color: #2e2f42;
 }
@@ -63,15 +64,19 @@ a {
 .nav-link {
   color: #2e2f42;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-link:active {
   color: #404bbf;
   text-decoration: underline;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 .contact {
+  font-style: normal;
 }
 .contact-list {
 }
@@ -79,6 +84,8 @@ a {
 }
 .contact-link {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -98,15 +105,20 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: rgba(0, 0, 0, 0.15);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #404bbf;
 }
 .features {
 }
@@ -117,7 +129,7 @@ a {
 .features-caption {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .features-desc {
@@ -126,24 +138,16 @@ a {
   letter-spacing: 0.02em;
 }
 .team {
-  background: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-list {
 }
 .team-item {
 }
-.card-content {
-  border-radius: 0px 0px 4px 4px;
-  background: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
 .team-img {
-  width: 264px;
-  height: 260px;
 }
 .team-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
@@ -153,6 +157,7 @@ a {
   color: #434455;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  font-size: 16px;
 }
 .portfolio {
 }
@@ -161,13 +166,7 @@ a {
 }
 .portgolio-item {
 }
-.portfolio-card {
-  border: 1px solid #e7e9fc;
-  background-color: #fff;
-}
 .portfolio-img {
-  width: 360px;
-  height: 300px;
 }
 .portfolio-subtitle {
   font-size: 20px;
