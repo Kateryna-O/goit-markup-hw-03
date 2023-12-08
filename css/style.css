@@ -27,7 +27,23 @@ ol {
 a {
   text-decoration: none;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+p {
+  margin: 0;
+}
 /*Common styles (поширений)*/
 
 .team-title,
@@ -42,10 +58,26 @@ a {
 }
 
 /*Header section*/
-
+/* .section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+} */
+.conteiner {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .header {
 }
+.header-conteiner {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  margin-right: 332px;
+}
 .header-logo {
+  margin-right: 76px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -59,8 +91,15 @@ a {
   color: #2e2f42;
 }
 .nav-list {
+  display: flex;
 }
 .nav-item {
+  margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav-item:last-child {
+  margin-right: 0;
 }
 .nav-link {
   color: #2e2f42;
@@ -80,8 +119,15 @@ a {
   font-style: normal;
 }
 .contact-list {
+  display: flex;
 }
 .contact-item {
+  margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.contact-item:last-child {
+  margin-right: 0;
 }
 .contact-link {
   color: #434455;
