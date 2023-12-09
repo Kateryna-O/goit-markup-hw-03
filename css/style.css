@@ -57,6 +57,16 @@ p {
   text-transform: capitalize;
 }
 
+/* .features,
+.team,
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /*Header section*/
 /* .section {
   padding-top: 60px;
@@ -75,6 +85,7 @@ p {
 .header-nav {
   display: flex;
   margin-right: 332px;
+  align-items: center;
 }
 .header-logo {
   margin-right: 76px;
@@ -142,6 +153,13 @@ p {
 
 .main {
 }
+.hero-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 .hero {
   background-color: #2e2f42;
 }
@@ -153,6 +171,8 @@ p {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  padding-bottom: 48px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -161,16 +181,27 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
+  display: inline-flex;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
 .features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features-list {
+  display: flex;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  gap: 24px;
+  justify-content: center;
 }
 .features-item {
+  width: 264px;
 }
 .features-caption {
   color: #2e2f42;
@@ -178,6 +209,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 .features-desc {
   color: #434455;
@@ -186,13 +218,34 @@ p {
 }
 .team {
   background-color: #f4f4fd;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+}
+.team-title {
+  padding-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-img {
+}
+.team-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-subtitle {
   color: #2e2f42;
