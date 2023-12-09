@@ -128,7 +128,6 @@ p {
 }
 .nav-item {
   margin-right: 40px;
-  padding: 24px 0;
 }
 .nav-item:last-child {
   margin-right: 0;
@@ -138,6 +137,7 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-link:active {
   color: #404bbf;
@@ -327,7 +327,7 @@ main {
 /*Footer section*/
 .page-container {
   min-height: 100%;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 .footer {
