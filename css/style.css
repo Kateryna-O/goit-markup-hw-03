@@ -12,6 +12,9 @@ button {
 button:active {
   background-color: #404bbf;
 }
+img {
+  display: block;
+}
 /*Default values*/
 /* font-size: 16px;
 font-weight: 400;
@@ -87,16 +90,17 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
 } */
-.conteiner {
+.container {
   max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
-.header-conteiner {
+.header-container {
   display: flex;
 }
 .header-nav {
@@ -123,8 +127,7 @@ p {
 }
 .nav-item {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 .nav-item:last-child {
   margin-right: 0;
@@ -172,7 +175,7 @@ main {
 }
 .main {
 }
-.hero-conteiner {
+.hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,6 +183,7 @@ main {
   padding-bottom: 188px;
 }
 .hero {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 .hero-title {
@@ -190,7 +194,7 @@ main {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
 }
 .hero-btn {
@@ -200,10 +204,12 @@ main {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
+  border: none;
   border-radius: 4px;
   min-width: 169px;
+  height: 56px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -248,6 +254,7 @@ main {
   gap: 24px;
 }
 .team-item {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -261,22 +268,24 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .team-subtitle {
+  text-align: center;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-caption {
   color: #434455;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   font-size: 16px;
+  text-align: center;
 }
 .portfolio {
 }
@@ -287,7 +296,7 @@ main {
   row-gap: 48px;
   column-gap: 24px;
 }
-.portfolio-conteiner {
+.portfolio-container {
   max-width: 360px;
   border: 1px solid #e7e9fc;
   background-color: #fff;
@@ -300,7 +309,6 @@ main {
 }
 
 .portfolio-img {
-  display: block;
   max-width: 100%;
 }
 .portfolio-subtitle {
@@ -326,12 +334,10 @@ main {
 .footer {
   background: #2e2f42;
 }
-.footer-conteiner {
+.footer-container {
   display: inline-flex;
   flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -342,6 +348,7 @@ main {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .light-logo {
